@@ -9,7 +9,7 @@ mkdir -pv ~/.local/src && cd ~/.local/src
 git clone https://github.com/DavidVogelxyz/debian-dwm && cd ~/.local/src/debian-dwm
 bash debian-dwm.sh
 
-sudo-apt-get install -y xdg-user-dirs xdg-user-dirs-gtk
+sudo-apt-get install -y nemo xdg-user-dirs xdg-user-dirs-gtk
 
 # Update user directories
 xdg-user-dirs-update
